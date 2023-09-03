@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
+.menu_navegacao{
+    display: flex;
+    justify-content: space-around;
+    background-color: greenyellow;
+    align-items: center;
+}
+
+ul, li{
+    display: inline-block;
+    margin-left: 24px;
+    color: green;
+    font-family: Lato;
+}
+
+.conteudo_principal{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+h3{
+    background-color: green;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 8px;
+    color: white;
+}
+
+h2{
+
+    font-weight: 300;
+}
+
+h1, h2, h3, h4{
+    font-family: Latos;
+}
+
+.rodape{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.colocarosvideos{
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: -300px;
+
+}
+
+.espaco-entre {
+    margin-top: 20px; 
+}
+
+h1{
+    font-weight: 300px;   
+    background-color: green;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 8px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.entreemcontato{
+
+    list-style: none;
+    padding: 0;
+    font-weight: 200;
+    color: green;
+    display: inline;
+    margin-top: 550px;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+.social-media-icons li {
+    display: inline;
+
+    
+}
+
+.social-media-icons img {
+    width: 40x; 
+    height: 40px; 
+}
+
